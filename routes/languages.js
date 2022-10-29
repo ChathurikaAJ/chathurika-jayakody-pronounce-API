@@ -40,8 +40,6 @@ const upload = multer({storage});
 
 
 
-
-
 // POST Audio from User
 router.post('/audio',upload.single('user-audio'),(req,res) => {
     //Convert audio to wav
@@ -50,13 +48,22 @@ router.post('/audio',upload.single('user-audio'),(req,res) => {
     //Send audio file to Azure
     speechToText.score()
 
-    //Send assessment to client
-    const assessmentData = JSON.parse(fs.readFileSync('./data/assessment.json'))
     
-    res.json(assessmentData)
+    res.status(200).send('User audio has been successfully received')
+    
 })
   
     
-    
+
+//GET results
+router.get('/result',(req,res) => {
+    const assessmentData = JSON.parse(fs.readFileSync('./data/assessment.json'))
+    res.json(assessmentData)
+
+})
+
+
+
+
 
 module.exports = router;

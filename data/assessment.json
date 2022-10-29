@@ -1,65 +1,83 @@
 {
-  "Id": "6f3ba1b8578d4119b612465b8586fe52",
+  "Id": "efc2130119a74f85bcb4c5a3b12d7b58",
   "RecognitionStatus": "Success",
-  "Offset": 24000000,
-  "Duration": 6300000,
+  "Offset": 6900000,
+  "Duration": 1800000,
   "Channel": 0,
-  "DisplayText": "Help.",
-  "SNR": 29.899168,
+  "DisplayText": "Working.",
+  "SNR": 22.311201,
   "NBest": [
     {
-      "Confidence": 0.9062978,
-      "Lexical": "help",
-      "ITN": "help",
-      "MaskedITN": "help",
-      "Display": "Help.",
+      "Confidence": 0.7272902,
+      "Lexical": "working",
+      "ITN": "working",
+      "MaskedITN": "working",
+      "Display": "Working.",
       "PronunciationAssessment": {
-        "AccuracyScore": 53.0,
-        "FluencyScore": 100.0,
-        "CompletenessScore": 100.0,
-        "PronScore": 71.8
+        "AccuracyScore": 1.0,
+        "FluencyScore": 0.0,
+        "CompletenessScore": 0.0,
+        "PronScore": 0.2
       },
       "Words": [
         {
-          "Word": "help",
-          "Offset": 24000000,
-          "Duration": 6300000,
+          "Word": "working",
+          "Offset": 6900000,
+          "Duration": 1800000,
           "PronunciationAssessment": {
-            "AccuracyScore": 53.0,
-            "ErrorType": "None"
+            "AccuracyScore": 1.0,
+            "ErrorType": "Mispronunciation"
           },
           "Syllables": [
             {
-              "Syllable": "hehlp",
-              "PronunciationAssessment": { "AccuracyScore": 53.0 },
-              "Offset": 24000000,
-              "Duration": 6300000
+              "Syllable": "werr",
+              "PronunciationAssessment": { "AccuracyScore": 0.0 },
+              "Offset": 6900000,
+              "Duration": 800000
+            },
+            {
+              "Syllable": "kihng",
+              "PronunciationAssessment": { "AccuracyScore": 2.0 },
+              "Offset": 7800000,
+              "Duration": 900000
             }
           ],
           "Phonemes": [
             {
-              "Phoneme": "h",
-              "PronunciationAssessment": { "AccuracyScore": 97.0 },
-              "Offset": 24000000,
-              "Duration": 1600000
+              "Phoneme": "w",
+              "PronunciationAssessment": { "AccuracyScore": 0.0 },
+              "Offset": 6900000,
+              "Duration": 200000
             },
             {
-              "Phoneme": "eh",
-              "PronunciationAssessment": { "AccuracyScore": 58.0 },
-              "Offset": 25700000,
-              "Duration": 1800000
+              "Phoneme": "er",
+              "PronunciationAssessment": { "AccuracyScore": 0.0 },
+              "Offset": 7200000,
+              "Duration": 200000
             },
             {
-              "Phoneme": "l",
-              "PronunciationAssessment": { "AccuracyScore": 18.0 },
-              "Offset": 27600000,
-              "Duration": 900000
+              "Phoneme": "r",
+              "PronunciationAssessment": { "AccuracyScore": 0.0 },
+              "Offset": 7500000,
+              "Duration": 200000
             },
             {
-              "Phoneme": "p",
-              "PronunciationAssessment": { "AccuracyScore": 25.0 },
-              "Offset": 28600000,
-              "Duration": 1700000
+              "Phoneme": "k",
+              "PronunciationAssessment": { "AccuracyScore": 0.0 },
+              "Offset": 7800000,
+              "Duration": 200000
+            },
+            {
+              "Phoneme": "ih",
+              "PronunciationAssessment": { "AccuracyScore": 2.0 },
+              "Offset": 8100000,
+              "Duration": 300000
+            },
+            {
+              "Phoneme": "ng",
+              "PronunciationAssessment": { "AccuracyScore": 4.0 },
+              "Offset": 8500000,
+              "Duration": 200000
             }
           ]
         }
