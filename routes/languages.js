@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const fs = require('fs');
 const textToSpeech = require('../azure/text-to-speech');
+const createAudioLink = require('../utils/audio-link')
 
 // POST Text sent from User
 router.post('/text',(req,res) => {
@@ -12,7 +13,9 @@ router.post('/text',(req,res) => {
             console.log('+++User text saved+++');
 
             // Send to SDK
-            // textToSpeech.speech()
+            textToSpeech.speech()
+
+           
 
         }
     })
@@ -21,8 +24,8 @@ router.post('/text',(req,res) => {
 })
     
     
-    // Get Audio
-    // Create audio link
+  
+    
     
 
     module.exports = router;
