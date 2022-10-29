@@ -1,69 +1,124 @@
 {
+  "Id": "0927a65bd2db4012b8838fd5fb195dc5",
   "RecognitionStatus": "Success",
-  "Offset": 21100000,
-  "Duration": 1100000,
+  "Offset": 6600000,
+  "Duration": 6300000,
+  "Channel": 0,
+  "DisplayText": "Good morning.",
+  "SNR": 1.0810273,
   "NBest": [
     {
-      "Confidence": 0.8350107,
-      "Lexical": "hello",
-      "ITN": "hello",
-      "MaskedITN": "hello",
-      "Display": "Hello.",
-      "AccuracyScore": 0.0,
-      "FluencyScore": 0.0,
-      "CompletenessScore": 0.0,
-      "PronScore": 0.0,
+      "Confidence": 0.93096775,
+      "Lexical": "good morning",
+      "ITN": "good morning",
+      "MaskedITN": "good morning",
+      "Display": "Good morning.",
+      "PronunciationAssessment": {
+        "AccuracyScore": 40.0,
+        "FluencyScore": 86.0,
+        "CompletenessScore": 50.0,
+        "PronScore": 51.2
+      },
       "Words": [
         {
-          "Word": "hello",
-          "Offset": 21100000,
-          "Duration": 1100000,
-          "Confidence": 0.0,
-          "AccuracyScore": 0.0,
-          "ErrorType": "Mispronunciation",
+          "Word": "good",
+          "Offset": 6600000,
+          "Duration": 800000,
+          "PronunciationAssessment": {
+            "AccuracyScore": 1.0,
+            "ErrorType": "Mispronunciation"
+          },
           "Syllables": [
             {
-              "Syllable": "heh",
-              "Offset": 21100000,
-              "Duration": 500000,
-              "AccuracyScore": 19.0
-            },
-            {
-              "Syllable": "low",
-              "Offset": 21700000,
-              "Duration": 500000,
-              "AccuracyScore": 0.0
+              "Syllable": "guhd",
+              "PronunciationAssessment": { "AccuracyScore": 2.0 },
+              "Offset": 6600000,
+              "Duration": 800000
             }
           ],
           "Phonemes": [
             {
-              "Phoneme": "h",
-              "Offset": 21100000,
-              "Duration": 200000,
-              "AccuracyScore": 0.0
+              "Phoneme": "g",
+              "PronunciationAssessment": { "AccuracyScore": 3.0 },
+              "Offset": 6600000,
+              "Duration": 200000
             },
             {
-              "Phoneme": "eh",
-              "Offset": 21400000,
-              "Duration": 200000,
-              "AccuracyScore": 38.0
+              "Phoneme": "uh",
+              "PronunciationAssessment": { "AccuracyScore": 2.0 },
+              "Offset": 6900000,
+              "Duration": 200000
             },
             {
-              "Phoneme": "l",
-              "Offset": 21700000,
-              "Duration": 200000,
-              "AccuracyScore": 0.0
+              "Phoneme": "d",
+              "PronunciationAssessment": { "AccuracyScore": 0.0 },
+              "Offset": 7200000,
+              "Duration": 200000
+            }
+          ]
+        },
+        {
+          "Word": "morning",
+          "Offset": 7500000,
+          "Duration": 5400000,
+          "PronunciationAssessment": {
+            "AccuracyScore": 78.0,
+            "ErrorType": "None"
+          },
+          "Syllables": [
+            {
+              "Syllable": "maor",
+              "PronunciationAssessment": { "AccuracyScore": 81.0 },
+              "Offset": 7500000,
+              "Duration": 1900000
             },
             {
-              "Phoneme": "ow",
-              "Offset": 22000000,
-              "Duration": 200000,
-              "AccuracyScore": 0.0
+              "Syllable": "nihng",
+              "PronunciationAssessment": { "AccuracyScore": 76.0 },
+              "Offset": 9500000,
+              "Duration": 3400000
+            }
+          ],
+          "Phonemes": [
+            {
+              "Phoneme": "m",
+              "PronunciationAssessment": { "AccuracyScore": 63.0 },
+              "Offset": 7500000,
+              "Duration": 500000
+            },
+            {
+              "Phoneme": "ao",
+              "PronunciationAssessment": { "AccuracyScore": 92.0 },
+              "Offset": 8100000,
+              "Duration": 700000
+            },
+            {
+              "Phoneme": "r",
+              "PronunciationAssessment": { "AccuracyScore": 85.0 },
+              "Offset": 8900000,
+              "Duration": 500000
+            },
+            {
+              "Phoneme": "n",
+              "PronunciationAssessment": { "AccuracyScore": 92.0 },
+              "Offset": 9500000,
+              "Duration": 900000
+            },
+            {
+              "Phoneme": "ih",
+              "PronunciationAssessment": { "AccuracyScore": 90.0 },
+              "Offset": 10500000,
+              "Duration": 700000
+            },
+            {
+              "Phoneme": "ng",
+              "PronunciationAssessment": { "AccuracyScore": 60.0 },
+              "Offset": 11300000,
+              "Duration": 1600000
             }
           ]
         }
       ]
     }
-  ],
-  "DisplayText": "Hello."
+  ]
 }
