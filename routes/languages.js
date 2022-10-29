@@ -5,6 +5,7 @@ const multer = require('multer');
 const audioToWav = require('../utils/audio-converter-wav')
 const speechToText = require('../azure/speech-to-text');
 
+
 // POST Text sent from User
 router.post('/text',(req,res) => {
     // Save to JSON
@@ -39,6 +40,8 @@ const upload = multer({storage});
 
 
 
+
+
 // POST Audio from User
 router.post('/audio',upload.single('user-audio'),(req,res) => {
     //Convert audio to wav
@@ -48,11 +51,10 @@ router.post('/audio',upload.single('user-audio'),(req,res) => {
     speechToText.score()
 
     //Send assessment to client
-
-    res.sendStatus(200)
-})
-
+    const assessmentData = JSON.parse(fs.readFileSync('./data/assessment.json'))
     
+    res.json(assessmentData)
+})
   
     
     

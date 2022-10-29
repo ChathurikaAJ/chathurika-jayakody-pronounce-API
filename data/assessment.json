@@ -1,120 +1,65 @@
 {
-  "Id": "0927a65bd2db4012b8838fd5fb195dc5",
+  "Id": "6f3ba1b8578d4119b612465b8586fe52",
   "RecognitionStatus": "Success",
-  "Offset": 6600000,
+  "Offset": 24000000,
   "Duration": 6300000,
   "Channel": 0,
-  "DisplayText": "Good morning.",
-  "SNR": 1.0810273,
+  "DisplayText": "Help.",
+  "SNR": 29.899168,
   "NBest": [
     {
-      "Confidence": 0.93096775,
-      "Lexical": "good morning",
-      "ITN": "good morning",
-      "MaskedITN": "good morning",
-      "Display": "Good morning.",
+      "Confidence": 0.9062978,
+      "Lexical": "help",
+      "ITN": "help",
+      "MaskedITN": "help",
+      "Display": "Help.",
       "PronunciationAssessment": {
-        "AccuracyScore": 40.0,
-        "FluencyScore": 86.0,
-        "CompletenessScore": 50.0,
-        "PronScore": 51.2
+        "AccuracyScore": 53.0,
+        "FluencyScore": 100.0,
+        "CompletenessScore": 100.0,
+        "PronScore": 71.8
       },
       "Words": [
         {
-          "Word": "good",
-          "Offset": 6600000,
-          "Duration": 800000,
+          "Word": "help",
+          "Offset": 24000000,
+          "Duration": 6300000,
           "PronunciationAssessment": {
-            "AccuracyScore": 1.0,
-            "ErrorType": "Mispronunciation"
-          },
-          "Syllables": [
-            {
-              "Syllable": "guhd",
-              "PronunciationAssessment": { "AccuracyScore": 2.0 },
-              "Offset": 6600000,
-              "Duration": 800000
-            }
-          ],
-          "Phonemes": [
-            {
-              "Phoneme": "g",
-              "PronunciationAssessment": { "AccuracyScore": 3.0 },
-              "Offset": 6600000,
-              "Duration": 200000
-            },
-            {
-              "Phoneme": "uh",
-              "PronunciationAssessment": { "AccuracyScore": 2.0 },
-              "Offset": 6900000,
-              "Duration": 200000
-            },
-            {
-              "Phoneme": "d",
-              "PronunciationAssessment": { "AccuracyScore": 0.0 },
-              "Offset": 7200000,
-              "Duration": 200000
-            }
-          ]
-        },
-        {
-          "Word": "morning",
-          "Offset": 7500000,
-          "Duration": 5400000,
-          "PronunciationAssessment": {
-            "AccuracyScore": 78.0,
+            "AccuracyScore": 53.0,
             "ErrorType": "None"
           },
           "Syllables": [
             {
-              "Syllable": "maor",
-              "PronunciationAssessment": { "AccuracyScore": 81.0 },
-              "Offset": 7500000,
-              "Duration": 1900000
-            },
-            {
-              "Syllable": "nihng",
-              "PronunciationAssessment": { "AccuracyScore": 76.0 },
-              "Offset": 9500000,
-              "Duration": 3400000
+              "Syllable": "hehlp",
+              "PronunciationAssessment": { "AccuracyScore": 53.0 },
+              "Offset": 24000000,
+              "Duration": 6300000
             }
           ],
           "Phonemes": [
             {
-              "Phoneme": "m",
-              "PronunciationAssessment": { "AccuracyScore": 63.0 },
-              "Offset": 7500000,
-              "Duration": 500000
+              "Phoneme": "h",
+              "PronunciationAssessment": { "AccuracyScore": 97.0 },
+              "Offset": 24000000,
+              "Duration": 1600000
             },
             {
-              "Phoneme": "ao",
-              "PronunciationAssessment": { "AccuracyScore": 92.0 },
-              "Offset": 8100000,
-              "Duration": 700000
+              "Phoneme": "eh",
+              "PronunciationAssessment": { "AccuracyScore": 58.0 },
+              "Offset": 25700000,
+              "Duration": 1800000
             },
             {
-              "Phoneme": "r",
-              "PronunciationAssessment": { "AccuracyScore": 85.0 },
-              "Offset": 8900000,
-              "Duration": 500000
-            },
-            {
-              "Phoneme": "n",
-              "PronunciationAssessment": { "AccuracyScore": 92.0 },
-              "Offset": 9500000,
+              "Phoneme": "l",
+              "PronunciationAssessment": { "AccuracyScore": 18.0 },
+              "Offset": 27600000,
               "Duration": 900000
             },
             {
-              "Phoneme": "ih",
-              "PronunciationAssessment": { "AccuracyScore": 90.0 },
-              "Offset": 10500000,
-              "Duration": 700000
-            },
-            {
-              "Phoneme": "ng",
-              "PronunciationAssessment": { "AccuracyScore": 60.0 },
-              "Offset": 11300000,
-              "Duration": 1600000
+              "Phoneme": "p",
+              "PronunciationAssessment": { "AccuracyScore": 25.0 },
+              "Offset": 28600000,
+              "Duration": 1700000
             }
           ]
         }

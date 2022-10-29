@@ -33,7 +33,7 @@ module.exports = {
     let audioConfig = sdk.AudioConfig.fromWavFileInput(fs.readFileSync("./audio/user-audio.wav"));
 
     var pronunciationAssessmentConfig = sdk.PronunciationAssessmentConfig.fromJSON(
-        "{\"referenceText\":\"good morning\",\"gradingSystem\":\"HundredMark\",\"granularity\":\"Phoneme\"}"
+        "{\"referenceText\":\""+userText+"\",\"gradingSystem\":\"HundredMark\",\"granularity\":\"Phoneme\"}"
         );
 
     let speechRecognizer = new sdk.SpeechRecognizer(speechConfig, audioConfig);
