@@ -39,6 +39,15 @@ const upload = multer({storage});
 
 
 // POST Audio from User
+router.post('/audio',upload.single('user-audio'),(req,res) => {
+    //Convert audio to wav
+
+    //Send audio file to Azure
+
+    //Send assessment to client
+
+    res.sendStatus(200)
+})
 
     
   
