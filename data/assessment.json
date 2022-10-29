@@ -1,0 +1,69 @@
+{
+  "RecognitionStatus": "Success",
+  "Offset": 21100000,
+  "Duration": 1100000,
+  "NBest": [
+    {
+      "Confidence": 0.8350107,
+      "Lexical": "hello",
+      "ITN": "hello",
+      "MaskedITN": "hello",
+      "Display": "Hello.",
+      "AccuracyScore": 0.0,
+      "FluencyScore": 0.0,
+      "CompletenessScore": 0.0,
+      "PronScore": 0.0,
+      "Words": [
+        {
+          "Word": "hello",
+          "Offset": 21100000,
+          "Duration": 1100000,
+          "Confidence": 0.0,
+          "AccuracyScore": 0.0,
+          "ErrorType": "Mispronunciation",
+          "Syllables": [
+            {
+              "Syllable": "heh",
+              "Offset": 21100000,
+              "Duration": 500000,
+              "AccuracyScore": 19.0
+            },
+            {
+              "Syllable": "low",
+              "Offset": 21700000,
+              "Duration": 500000,
+              "AccuracyScore": 0.0
+            }
+          ],
+          "Phonemes": [
+            {
+              "Phoneme": "h",
+              "Offset": 21100000,
+              "Duration": 200000,
+              "AccuracyScore": 0.0
+            },
+            {
+              "Phoneme": "eh",
+              "Offset": 21400000,
+              "Duration": 200000,
+              "AccuracyScore": 38.0
+            },
+            {
+              "Phoneme": "l",
+              "Offset": 21700000,
+              "Duration": 200000,
+              "AccuracyScore": 0.0
+            },
+            {
+              "Phoneme": "ow",
+              "Offset": 22000000,
+              "Duration": 200000,
+              "AccuracyScore": 0.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "DisplayText": "Hello."
+}

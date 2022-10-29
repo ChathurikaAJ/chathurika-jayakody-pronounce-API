@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const fs = require('fs');
 const textToSpeech = require('../azure/text-to-speech');
-const createAudioLink = require('../utils/audio-link')
 const multer = require('multer');
+const audioToWav = require('../utils/audio-converter-wav')
+const speechToText = require('../azure/speech-to-text');
 
 // POST Text sent from User
 router.post('/text',(req,res) => {
@@ -41,8 +42,10 @@ const upload = multer({storage});
 // POST Audio from User
 router.post('/audio',upload.single('user-audio'),(req,res) => {
     //Convert audio to wav
+    audioToWav.converter()
 
     //Send audio file to Azure
+    speechToText.score()
 
     //Send assessment to client
 
