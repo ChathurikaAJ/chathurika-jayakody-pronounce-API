@@ -5,7 +5,7 @@ const languageRoutes = require('./routes/languages');
 const app = express();
 app.use(cors());
 app.use(express.json());
-app.use('./languages',languageRoutes);
+app.use('/languages',languageRoutes);
 
 require('dotenv').config();
 const port = process.env.port ?? 8080;

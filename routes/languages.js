@@ -1,19 +1,28 @@
 const router = require('express').Router();
 const fs = require('fs');
+const textToSpeech = require('../azure/text-to-speech');
 
 // POST Text sent from User
 router.post('/text',(req,res) => {
-    fs.writeFile('./data/assessment.json',JSON.stringify(req.body),
+    // Save to JSON
+    fs.writeFile('./data/user-text.json',JSON.stringify(req.body),
     (error) => {
+        console.log(error);
         if(!error){
-            console.log('User text saved');
+            console.log('+++User text saved+++');
+
+            // Send to SDK
+            // textToSpeech.speech()
+
         }
     })
+    // Send status
+    res.status(200).send('User text has been successfully received')
 })
-    // Save in JSON
-    // Send to SDK
+    
+    
     // Get Audio
     // Create audio link
-    // Send status
+    
 
     module.exports = router;
