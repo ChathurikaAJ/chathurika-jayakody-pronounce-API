@@ -7,8 +7,8 @@ module.exports = {
     const fs = require("fs");
 
     const userTextData = JSON.parse(fs.readFileSync('./data/user-text.json'))
-    const userText = 'happy birthday';
-    const language = 'english';
+    const userText = userTextData.text;
+    const language = userTextData.language;
 
     const localeIds = [
         {language: 'english', locale:'en-US', speaker:"en-US-AriaNeural"},

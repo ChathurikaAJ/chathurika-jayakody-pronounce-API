@@ -1,132 +1,120 @@
 {
-  "Id": "8c31b7fa79ce4330a988d1d05f72dd4c",
+  "Id": "91b0b21c20c3442a8ad29bb9b9ddb1d7",
   "RecognitionStatus": "Success",
-  "Offset": 4500000,
-  "Duration": 10600000,
+  "Offset": 4300000,
+  "Duration": 9700000,
   "Channel": 0,
-  "DisplayText": "Happy birthday.",
-  "SNR": 25.315008,
+  "DisplayText": "Hello world.",
+  "SNR": 23.383562,
   "NBest": [
     {
-      "Confidence": 0.98078835,
-      "Lexical": "happy birthday",
-      "ITN": "happy birthday",
-      "MaskedITN": "happy birthday",
-      "Display": "Happy birthday.",
+      "Confidence": 0.9226262,
+      "Lexical": "hello world",
+      "ITN": "hello world",
+      "MaskedITN": "hello world",
+      "Display": "Hello world.",
       "PronunciationAssessment": {
-        "AccuracyScore": 89.0,
+        "AccuracyScore": 64.0,
         "FluencyScore": 100.0,
         "CompletenessScore": 100.0,
-        "PronScore": 93.4
+        "PronScore": 78.4
       },
       "Words": [
         {
-          "Word": "happy",
-          "Offset": 4500000,
-          "Duration": 3700000,
+          "Word": "hello",
+          "Offset": 4300000,
+          "Duration": 4700000,
           "PronunciationAssessment": {
-            "AccuracyScore": 93.0,
+            "AccuracyScore": 81.0,
             "ErrorType": "None"
           },
           "Syllables": [
             {
-              "Syllable": "hae",
-              "PronunciationAssessment": { "AccuracyScore": 86.0 },
-              "Offset": 4500000,
+              "Syllable": "heh",
+              "PronunciationAssessment": { "AccuracyScore": 90.0 },
+              "Offset": 4300000,
               "Duration": 1700000
             },
             {
-              "Syllable": "piy",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 6300000,
-              "Duration": 1900000
+              "Syllable": "low",
+              "PronunciationAssessment": { "AccuracyScore": 76.0 },
+              "Offset": 6100000,
+              "Duration": 2900000
             }
           ],
           "Phonemes": [
             {
               "Phoneme": "h",
-              "PronunciationAssessment": { "AccuracyScore": 79.0 },
-              "Offset": 4500000,
-              "Duration": 1100000
-            },
-            {
-              "Phoneme": "ae",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 5700000,
-              "Duration": 500000
-            },
-            {
-              "Phoneme": "p",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 6300000,
+              "PronunciationAssessment": { "AccuracyScore": 89.0 },
+              "Offset": 4300000,
               "Duration": 1300000
             },
             {
-              "Phoneme": "iy",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 7700000,
-              "Duration": 500000
+              "Phoneme": "eh",
+              "PronunciationAssessment": { "AccuracyScore": 92.0 },
+              "Offset": 5700000,
+              "Duration": 300000
+            },
+            {
+              "Phoneme": "l",
+              "PronunciationAssessment": { "AccuracyScore": 92.0 },
+              "Offset": 6100000,
+              "Duration": 1100000
+            },
+            {
+              "Phoneme": "ow",
+              "PronunciationAssessment": { "AccuracyScore": 66.0 },
+              "Offset": 7300000,
+              "Duration": 1700000
             }
           ]
         },
         {
-          "Word": "birthday",
-          "Offset": 8300000,
-          "Duration": 6800000,
+          "Word": "world",
+          "Offset": 9100000,
+          "Duration": 4900000,
           "PronunciationAssessment": {
-            "AccuracyScore": 85.0,
+            "AccuracyScore": 48.0,
             "ErrorType": "None"
           },
           "Syllables": [
             {
-              "Syllable": "berrth",
-              "PronunciationAssessment": { "AccuracyScore": 98.0 },
-              "Offset": 8300000,
-              "Duration": 3300000
-            },
-            {
-              "Syllable": "dey",
-              "PronunciationAssessment": { "AccuracyScore": 73.0 },
-              "Offset": 11700000,
-              "Duration": 3400000
+              "Syllable": "werrld",
+              "PronunciationAssessment": { "AccuracyScore": 48.0 },
+              "Offset": 9100000,
+              "Duration": 4900000
             }
           ],
           "Phonemes": [
             {
-              "Phoneme": "b",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 8300000,
-              "Duration": 700000
+              "Phoneme": "w",
+              "PronunciationAssessment": { "AccuracyScore": 82.0 },
+              "Offset": 9100000,
+              "Duration": 300000
             },
             {
               "Phoneme": "er",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 9100000,
-              "Duration": 900000
+              "PronunciationAssessment": { "AccuracyScore": 72.0 },
+              "Offset": 9500000,
+              "Duration": 700000
             },
             {
               "Phoneme": "r",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 10100000,
-              "Duration": 800000
+              "PronunciationAssessment": { "AccuracyScore": 53.0 },
+              "Offset": 10300000,
+              "Duration": 1000000
             },
             {
-              "Phoneme": "th",
-              "PronunciationAssessment": { "AccuracyScore": 89.0 },
-              "Offset": 11000000,
-              "Duration": 600000
+              "Phoneme": "l",
+              "PronunciationAssessment": { "AccuracyScore": 40.0 },
+              "Offset": 11400000,
+              "Duration": 700000
             },
             {
               "Phoneme": "d",
-              "PronunciationAssessment": { "AccuracyScore": 100.0 },
-              "Offset": 11700000,
-              "Duration": 1100000
-            },
-            {
-              "Phoneme": "ey",
-              "PronunciationAssessment": { "AccuracyScore": 59.0 },
-              "Offset": 12900000,
-              "Duration": 2200000
+              "PronunciationAssessment": { "AccuracyScore": 32.0 },
+              "Offset": 12200000,
+              "Duration": 1800000
             }
           ]
         }

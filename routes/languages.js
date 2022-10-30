@@ -48,7 +48,7 @@ router.post('/audio',upload.single('user-audio'),(req,res) => {
 
     //Send audio file to Azure
     console.log('sending to Azure');
-    // speechToText.score()
+    speechToText.score()
     
     res.status(200).send('User audio has been successfully received')
 })
