@@ -16,7 +16,7 @@ router.post('/text',(req,res) => {
             console.log('+++User text saved+++');
 
             // Send to SDK
-            textToSpeech.speech()
+            // textToSpeech.speech()
         }
     })
     // Send status
@@ -41,22 +41,15 @@ const upload = multer({storage});
 
 
 // POST Audio from User
-router.post('/audio',upload.single('user-audio'),(req,res) => {
+router.post('/audio',upload.single('user-audio'), (req,res) => {
     
-    //Convert audio to wav
+    //Convert audio to wav & Send audio file to Azure
     audioToWav.converter()
-
-    //Send audio file to Azure
-    console.log('sending to Azure');
-    speechToText.score()
     
     res.status(200).send('User audio has been successfully received')
 })
 
 
-
-  
-    
 
 //GET results
 router.get('/result',(req,res) => {
@@ -64,8 +57,6 @@ router.get('/result',(req,res) => {
     res.json(assessmentData)
 
 })
-
-
 
 
 

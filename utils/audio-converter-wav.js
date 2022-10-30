@@ -1,10 +1,12 @@
 // Convert audio to WAV
 
 module.exports = {
-    converter: function(){
+    converter: function (){
     
     const ffmpeg = require('fluent-ffmpeg');
     const track = './audio/user-audio.webm'
+    var status = false;
+    const speechToText = require('../azure/speech-to-text');
 
     ffmpeg(track)
     // .audioCodec('pcm_s16le')
@@ -19,7 +21,10 @@ module.exports = {
     })
     .on('end', () => {
         console.log('Processing finished !');
+        // speechToText.score()
+        
     })
     .save('./audio/user-audio.wav');//path where you want to save your file
+    
     }
 }

@@ -1,120 +1,120 @@
 {
-  "Id": "91b0b21c20c3442a8ad29bb9b9ddb1d7",
+  "Id": "74789ce47b1340a7ac6e284b9035cc8b",
   "RecognitionStatus": "Success",
-  "Offset": 4300000,
-  "Duration": 9700000,
+  "Offset": 5100000,
+  "Duration": 10400000,
   "Channel": 0,
   "DisplayText": "Hello world.",
-  "SNR": 23.383562,
+  "SNR": 29.4162,
   "NBest": [
     {
-      "Confidence": 0.9226262,
+      "Confidence": 0.9862795,
       "Lexical": "hello world",
       "ITN": "hello world",
       "MaskedITN": "hello world",
       "Display": "Hello world.",
       "PronunciationAssessment": {
-        "AccuracyScore": 64.0,
+        "AccuracyScore": 98.0,
         "FluencyScore": 100.0,
         "CompletenessScore": 100.0,
-        "PronScore": 78.4
+        "PronScore": 98.8
       },
       "Words": [
         {
           "Word": "hello",
-          "Offset": 4300000,
-          "Duration": 4700000,
+          "Offset": 5100000,
+          "Duration": 4000000,
           "PronunciationAssessment": {
-            "AccuracyScore": 81.0,
+            "AccuracyScore": 99.0,
             "ErrorType": "None"
           },
           "Syllables": [
             {
               "Syllable": "heh",
-              "PronunciationAssessment": { "AccuracyScore": 90.0 },
-              "Offset": 4300000,
-              "Duration": 1700000
+              "PronunciationAssessment": { "AccuracyScore": 99.0 },
+              "Offset": 5100000,
+              "Duration": 1600000
             },
             {
               "Syllable": "low",
-              "PronunciationAssessment": { "AccuracyScore": 76.0 },
-              "Offset": 6100000,
-              "Duration": 2900000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 6800000,
+              "Duration": 2300000
             }
           ],
           "Phonemes": [
             {
               "Phoneme": "h",
-              "PronunciationAssessment": { "AccuracyScore": 89.0 },
-              "Offset": 4300000,
-              "Duration": 1300000
+              "PronunciationAssessment": { "AccuracyScore": 98.0 },
+              "Offset": 5100000,
+              "Duration": 1000000
             },
             {
               "Phoneme": "eh",
-              "PronunciationAssessment": { "AccuracyScore": 92.0 },
-              "Offset": 5700000,
-              "Duration": 300000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 6200000,
+              "Duration": 500000
             },
             {
               "Phoneme": "l",
-              "PronunciationAssessment": { "AccuracyScore": 92.0 },
-              "Offset": 6100000,
-              "Duration": 1100000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 6800000,
+              "Duration": 700000
             },
             {
               "Phoneme": "ow",
-              "PronunciationAssessment": { "AccuracyScore": 66.0 },
-              "Offset": 7300000,
-              "Duration": 1700000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 7600000,
+              "Duration": 1500000
             }
           ]
         },
         {
           "Word": "world",
-          "Offset": 9100000,
-          "Duration": 4900000,
+          "Offset": 9200000,
+          "Duration": 6300000,
           "PronunciationAssessment": {
-            "AccuracyScore": 48.0,
+            "AccuracyScore": 96.0,
             "ErrorType": "None"
           },
           "Syllables": [
             {
               "Syllable": "werrld",
-              "PronunciationAssessment": { "AccuracyScore": 48.0 },
-              "Offset": 9100000,
-              "Duration": 4900000
+              "PronunciationAssessment": { "AccuracyScore": 96.0 },
+              "Offset": 9200000,
+              "Duration": 6300000
             }
           ],
           "Phonemes": [
             {
               "Phoneme": "w",
-              "PronunciationAssessment": { "AccuracyScore": 82.0 },
-              "Offset": 9100000,
-              "Duration": 300000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 9200000,
+              "Duration": 900000
             },
             {
               "Phoneme": "er",
-              "PronunciationAssessment": { "AccuracyScore": 72.0 },
-              "Offset": 9500000,
-              "Duration": 700000
+              "PronunciationAssessment": { "AccuracyScore": 98.0 },
+              "Offset": 10200000,
+              "Duration": 600000
             },
             {
               "Phoneme": "r",
-              "PronunciationAssessment": { "AccuracyScore": 53.0 },
-              "Offset": 10300000,
-              "Duration": 1000000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 10900000,
+              "Duration": 800000
             },
             {
               "Phoneme": "l",
-              "PronunciationAssessment": { "AccuracyScore": 40.0 },
-              "Offset": 11400000,
-              "Duration": 700000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 11800000,
+              "Duration": 1300000
             },
             {
               "Phoneme": "d",
-              "PronunciationAssessment": { "AccuracyScore": 32.0 },
-              "Offset": 12200000,
-              "Duration": 1800000
+              "PronunciationAssessment": { "AccuracyScore": 90.0 },
+              "Offset": 13200000,
+              "Duration": 2300000
             }
           ]
         }
