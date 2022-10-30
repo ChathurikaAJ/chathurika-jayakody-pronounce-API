@@ -7,7 +7,10 @@ module.exports = {
     const track = './audio/user-audio.webm'
 
     ffmpeg(track)
-    .toFormat('wav')
+    // .audioCodec('pcm_s16le')
+    .audioBitrate(128)
+    .audioChannels(0)
+    .audioFrequency(8000)
     .on('error', (err) => {
         console.log('An error occurred: ' + err.message);
     })

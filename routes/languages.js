@@ -42,16 +42,19 @@ const upload = multer({storage});
 
 // POST Audio from User
 router.post('/audio',upload.single('user-audio'),(req,res) => {
+    
     //Convert audio to wav
     audioToWav.converter()
 
     //Send audio file to Azure
-    speechToText.score()
-
+    console.log('sending to Azure');
+    // speechToText.score()
     
     res.status(200).send('User audio has been successfully received')
-    
 })
+
+
+
   
     
 

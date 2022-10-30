@@ -1,6 +1,6 @@
-// // USED SAMPLE CODE PROVIDED BY AZURE
+// USED SAMPLE CODE PROVIDED BY AZURE
 
-// // Copyright (c) Microsoft Corporation. All rights reserved.
+// Copyright (c) Microsoft Corporation. All rights reserved.
 // // Licensed under the MIT license.
 
 // module.exports = {

@@ -1,83 +1,132 @@
 {
-  "Id": "efc2130119a74f85bcb4c5a3b12d7b58",
+  "Id": "8c31b7fa79ce4330a988d1d05f72dd4c",
   "RecognitionStatus": "Success",
-  "Offset": 6900000,
-  "Duration": 1800000,
+  "Offset": 4500000,
+  "Duration": 10600000,
   "Channel": 0,
-  "DisplayText": "Working.",
-  "SNR": 22.311201,
+  "DisplayText": "Happy birthday.",
+  "SNR": 25.315008,
   "NBest": [
     {
-      "Confidence": 0.7272902,
-      "Lexical": "working",
-      "ITN": "working",
-      "MaskedITN": "working",
-      "Display": "Working.",
+      "Confidence": 0.98078835,
+      "Lexical": "happy birthday",
+      "ITN": "happy birthday",
+      "MaskedITN": "happy birthday",
+      "Display": "Happy birthday.",
       "PronunciationAssessment": {
-        "AccuracyScore": 1.0,
-        "FluencyScore": 0.0,
-        "CompletenessScore": 0.0,
-        "PronScore": 0.2
+        "AccuracyScore": 89.0,
+        "FluencyScore": 100.0,
+        "CompletenessScore": 100.0,
+        "PronScore": 93.4
       },
       "Words": [
         {
-          "Word": "working",
-          "Offset": 6900000,
-          "Duration": 1800000,
+          "Word": "happy",
+          "Offset": 4500000,
+          "Duration": 3700000,
           "PronunciationAssessment": {
-            "AccuracyScore": 1.0,
-            "ErrorType": "Mispronunciation"
+            "AccuracyScore": 93.0,
+            "ErrorType": "None"
           },
           "Syllables": [
             {
-              "Syllable": "werr",
-              "PronunciationAssessment": { "AccuracyScore": 0.0 },
-              "Offset": 6900000,
-              "Duration": 800000
+              "Syllable": "hae",
+              "PronunciationAssessment": { "AccuracyScore": 86.0 },
+              "Offset": 4500000,
+              "Duration": 1700000
             },
             {
-              "Syllable": "kihng",
-              "PronunciationAssessment": { "AccuracyScore": 2.0 },
-              "Offset": 7800000,
-              "Duration": 900000
+              "Syllable": "piy",
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 6300000,
+              "Duration": 1900000
             }
           ],
           "Phonemes": [
             {
-              "Phoneme": "w",
-              "PronunciationAssessment": { "AccuracyScore": 0.0 },
-              "Offset": 6900000,
-              "Duration": 200000
+              "Phoneme": "h",
+              "PronunciationAssessment": { "AccuracyScore": 79.0 },
+              "Offset": 4500000,
+              "Duration": 1100000
+            },
+            {
+              "Phoneme": "ae",
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 5700000,
+              "Duration": 500000
+            },
+            {
+              "Phoneme": "p",
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 6300000,
+              "Duration": 1300000
+            },
+            {
+              "Phoneme": "iy",
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 7700000,
+              "Duration": 500000
+            }
+          ]
+        },
+        {
+          "Word": "birthday",
+          "Offset": 8300000,
+          "Duration": 6800000,
+          "PronunciationAssessment": {
+            "AccuracyScore": 85.0,
+            "ErrorType": "None"
+          },
+          "Syllables": [
+            {
+              "Syllable": "berrth",
+              "PronunciationAssessment": { "AccuracyScore": 98.0 },
+              "Offset": 8300000,
+              "Duration": 3300000
+            },
+            {
+              "Syllable": "dey",
+              "PronunciationAssessment": { "AccuracyScore": 73.0 },
+              "Offset": 11700000,
+              "Duration": 3400000
+            }
+          ],
+          "Phonemes": [
+            {
+              "Phoneme": "b",
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 8300000,
+              "Duration": 700000
             },
             {
               "Phoneme": "er",
-              "PronunciationAssessment": { "AccuracyScore": 0.0 },
-              "Offset": 7200000,
-              "Duration": 200000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 9100000,
+              "Duration": 900000
             },
             {
               "Phoneme": "r",
-              "PronunciationAssessment": { "AccuracyScore": 0.0 },
-              "Offset": 7500000,
-              "Duration": 200000
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 10100000,
+              "Duration": 800000
             },
             {
-              "Phoneme": "k",
-              "PronunciationAssessment": { "AccuracyScore": 0.0 },
-              "Offset": 7800000,
-              "Duration": 200000
+              "Phoneme": "th",
+              "PronunciationAssessment": { "AccuracyScore": 89.0 },
+              "Offset": 11000000,
+              "Duration": 600000
             },
             {
-              "Phoneme": "ih",
-              "PronunciationAssessment": { "AccuracyScore": 2.0 },
-              "Offset": 8100000,
-              "Duration": 300000
+              "Phoneme": "d",
+              "PronunciationAssessment": { "AccuracyScore": 100.0 },
+              "Offset": 11700000,
+              "Duration": 1100000
             },
             {
-              "Phoneme": "ng",
-              "PronunciationAssessment": { "AccuracyScore": 4.0 },
-              "Offset": 8500000,
-              "Duration": 200000
+              "Phoneme": "ey",
+              "PronunciationAssessment": { "AccuracyScore": 59.0 },
+              "Offset": 12900000,
+              "Duration": 2200000
             }
           ]
         }
