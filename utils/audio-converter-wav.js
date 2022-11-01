@@ -21,7 +21,7 @@ module.exports = {
     })
     .on('end', () => {
         console.log('Processing finished !');
-        // speechToText.score()
+        speechToText.score()
         
     })
     .save('./audio/user-audio.wav');//path where you want to save your file

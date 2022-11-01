@@ -16,7 +16,7 @@ router.post('/text',(req,res) => {
             console.log('+++User text saved+++');
 
             // Send to SDK
-            // textToSpeech.speech()
+            textToSpeech.speech()
         }
     })
     // Send status

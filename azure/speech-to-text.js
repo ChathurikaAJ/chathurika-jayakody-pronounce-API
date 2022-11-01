@@ -13,7 +13,7 @@ module.exports = {
     const localeIds = [
         {language: 'english', locale:'en-US', speaker:"en-US-AriaNeural"},
         {language: 'french', locale:'fr-FR', speaker:"fr-FR-DeniseNeural"},
-        {language: 'spanish', locale:'es-ES', speaker:"es-MX-JorgeNeura"},
+        {language: 'spanish', locale:'es-ES', speaker:"es-ES-AbrilNeural"},
         {language: 'chinese', locale:'zh-CN', speaker:"zh-CN-XiaohanNeural"}
     ]
 
