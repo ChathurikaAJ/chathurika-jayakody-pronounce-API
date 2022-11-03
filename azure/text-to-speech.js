@@ -41,6 +41,7 @@ module.exports = {
     const speechConfig = sdk.SpeechConfig.fromSubscription("701f60c8de24410b955e3f98bc6c78d7", "eastus");
     const audioConfig = sdk.AudioConfig.fromAudioFileOutput(audioFile);
 
+
     // The language of the voice that speaks.
     speechConfig.speechSynthesisVoiceName = speaker; 
 
@@ -59,6 +60,8 @@ module.exports = {
           function (result) {
         if (result.reason === sdk.ResultReason.SynthesizingAudioCompleted) {
           console.log("synthesis finished.");
+
+
         } else {
           console.error("Speech synthesis canceled, " + result.errorDetails +
               "\nDid you set the speech resource key and region values?");

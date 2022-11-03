@@ -21,6 +21,8 @@ module.exports = {
     })
     .on('end', () => {
         console.log('Processing finished !');
+
+        // Send audio file to Azure for assessment
         speechToText.score()
         
     })
