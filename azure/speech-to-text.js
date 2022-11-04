@@ -50,7 +50,9 @@ module.exports = {
                 fs.writeFileSync('./data/assessment.json',pronunciationAssessmentResultJson)
                 break;
             case sdk.ResultReason.NoMatch:
+                fs.writeFileSync('./data/assessment.json',JSON.stringify("Speech could not be recognized"))
                 console.log("NOMATCH: Speech could not be recognized.");
+                
                 break;
             case sdk.ResultReason.Canceled:
                 const cancellation = sdk.CancellationDetails.fromResult(result);
