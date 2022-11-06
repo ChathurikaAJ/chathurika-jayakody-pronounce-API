@@ -13,7 +13,7 @@ require('dotenv').config();
 const port = process.env.port ?? 8080;
 
 
-app.get('/',(req,res) => {
+app.get('/',(_req,res) => {
     res.send('Welcome to the Pronunciation Assessment Data File')
 })
 

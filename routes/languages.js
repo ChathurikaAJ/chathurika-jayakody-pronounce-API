@@ -3,7 +3,7 @@ const fs = require('fs');
 const textToSpeech = require('../azure/text-to-speech');
 const multer = require('multer');
 const audioToWav = require('../utils/audio-converter-wav')
-const speechToText = require('../azure/speech-to-text');
+
 
 
 // POST Text sent from User
@@ -19,17 +19,34 @@ router.post('/text',(req,res) => {
             console.log('+++User text saved+++');
     
             // Send to SDK
-            // textToSpeech.speech()
+            textToSpeech.speech()
         }
     
     })
     // Send status
     res.status(200).send('User text has been successfully received')
+})
 
 
-    // fs.readFile("./public/audio/text-to-speech.wav", function(err, result) {
-    //     res.send(result.toString("base64"));
-    //   });
+
+// GET text to speech audio file
+router.get('/text-to-speech',(req,res)=>{
+    var options = {
+        root: './audio',
+        dotfiles: 'deny',
+        headers: {
+          'x-timestamp': Date.now(),
+          'x-sent': true
+        }
+      }
+
+    res.sendFile("text-to-speech.wav",options,function(err){
+        if(err){
+            console.log(err);
+        } else {
+            console.log('sent file');
+        }
+    })
 })
 
 
@@ -66,29 +83,6 @@ router.get('/result',(_req,res) => {
     res.json(assessmentData)
 
 })
-
-// GET text to speech
-router.get('/text-to-speech',(req,res)=>{
-    var options = {
-        root: './audio',
-        dotfiles: 'deny',
-        headers: {
-          'x-timestamp': Date.now(),
-          'x-sent': true
-        }
-      }
-
-    res.sendFile("text-to-speech.wav",options,function(err){
-        if(err){
-            console.log(err);
-        } else {
-            console.log('sent file');
-        }
-    })
-
-})
-    
-
 
 
 

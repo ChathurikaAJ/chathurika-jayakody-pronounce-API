@@ -5,7 +5,6 @@ module.exports = {
     
     const ffmpeg = require('fluent-ffmpeg');
     const track = './audio/user-audio.webm'
-    var status = false;
     const speechToText = require('../azure/speech-to-text');
 
     ffmpeg(track)
@@ -26,7 +25,7 @@ module.exports = {
         speechToText.score()
         
     })
-    .save('./audio/user-audio.wav');//path where you want to save your file
+    .save('./audio/user-audio.wav');//path to save your file
     
     }
 }

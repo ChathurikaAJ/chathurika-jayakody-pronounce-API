@@ -10,10 +10,13 @@ module.exports = {
 
     //--------MY EDITS-START--------//
     const fs = require("fs");
-    require('dotenv').config();
+    require('dotenv').config({
+      path:'./process.env'
+    });
 
-    // const key = process.env.AzureKey;
-    // const region = process.env.AzureRegion;
+    const key = process.env.SPEECH_KEY;
+    const region = process.env.SPEECH_REGION;
+
 
     const userTextData = JSON.parse(fs.readFileSync('./data/user-text.json'))
     const userText = userTextData.text;
@@ -38,7 +41,7 @@ module.exports = {
 
     var audioFile = "./audio/text-to-speech.wav";
     // This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
-    const speechConfig = sdk.SpeechConfig.fromSubscription("701f60c8de24410b955e3f98bc6c78d7", "eastus");
+    const speechConfig = sdk.SpeechConfig.fromSubscription(key, region);
     const audioConfig = sdk.AudioConfig.fromAudioFileOutput(audioFile);
 
 

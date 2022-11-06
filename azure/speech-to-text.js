@@ -6,6 +6,13 @@ module.exports = {
     //--------MY EDITS-START--------//
     const fs = require("fs");
 
+    require('dotenv').config({
+        path:'./process.env'
+      });
+  
+    const key = process.env.SPEECH_KEY;
+    const region = process.env.SPEECH_REGION;
+
     const userTextData = JSON.parse(fs.readFileSync('./data/user-text.json'))
     const userText = userTextData.text;
     const language = userTextData.language;
@@ -19,14 +26,13 @@ module.exports = {
 
     const locale= localeIds.find(id => id.language === language).locale
     
-    // console.log(filteredLocale);
 
     //--------MY EDITS-END--------//
 
     const sdk = require("microsoft-cognitiveservices-speech-sdk");
 
     // This example requires environment variables named "SPEECH_KEY" and "SPEECH_REGION"
-    const speechConfig = sdk.SpeechConfig.fromSubscription("701f60c8de24410b955e3f98bc6c78d7", "eastus");
+    const speechConfig = sdk.SpeechConfig.fromSubscription(key, region);
     
     speechConfig.speechRecognitionLanguage = locale;
 
